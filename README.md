@@ -36,8 +36,8 @@ So the command to start the game should be like that:
 ```
 After this, a little window should open for you to play.
 Understanding the map:
-> The little cone is the walls;`\n`
-The red car, witch is a porsche by the way, is the player;\n
+> The little cone is the walls;'\n'
+The red car, witch is a porsche by the way, is the player;'\n'
 The gallon is the collectable that you have to collect;\n
 The checkerd flag is the exit (but you can only finish the map when you collect all the gallons).
 
