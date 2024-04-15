@@ -9,7 +9,7 @@ So. To create this little game, witch by the way, was my dream when I was a kid,
 and some functions that is avaliable in the MinilibX library.
 
 ## Usage:
-First you need to clone this rep.
+First you need to clone this rep.<br />
 Paste the command bellow in your terminal:
 ```Shell
 git clone https://github.com/PradoAllan/so_long.git <directory_name>
@@ -36,33 +36,33 @@ So the command to start the game should be like that:
 ```
 After this, a little window should open for you to play.
 Understanding the map:
-> The little cone is the walls;																
-The red car, witch is a porsche by the way, is the player;												
-The gallon is the collectable that you have to collect;													
+> The little cone is the walls;<br />
+The red car, witch is a porsche by the way, is the player;<br />
+The gallon is the collectable that you have to collect;<br />
 The checkerd flag is the exit (but you can only finish the map when you collect all the gallons).
 
 <h2 align="center">Creating a new map</h2>
 
-The maps are locaated at "maps" file.
-To create a new map, first of all, you need to understand how the map works:
-	1 = wall;
-	0 = floor;
-	E = exit;
-	C = collectables;
+The maps are locaated at "maps" file.<br />
+To create a new map, first of all, you need to understand how the map works:<br />
+	1 = wall;<br />
+	0 = floor;<br />
+	E = exit;<br />
+	C = collectables;<br />
 	P = player.
 
 For example:
-	111111
-	1000E1
-	1C0011
-	1000P1
+	111111<br />
+	1000E1<br />
+	1C0011<br />
+	1000P1<br />
 	111111
 
 When you create your map, you have to be aware that there are some rules to run the map.
-	The map can only have this 5 characters;
-	The map must be rectangle. width != height;
-	The map must be winnable. All the collectables and the exit should be able for the player to get/go.
-	The map must be surrounded by walls, like the example.
+	The map can only have this 5 characters;<br />
+	The map must be rectangle. width != height;<br />
+	The map must be winnable. All the collectables and the exit should be able for the player to get/go.<br />
+	The map must be surrounded by walls, like the example.<br />
 
 Hope this little guide can help you to have fun playing my little 2D game. Feel welcome to get in touch with me on my social medias. I'll be happy to help you with some code!
 
