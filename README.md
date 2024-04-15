@@ -1,6 +1,8 @@
 <h1 align="center">so_long</h1>
 <p align="center">Graphic project from 42 school</p>
 
+![image](https://github.com/PradoAllan/so_long/blob/main/prints/Captura%20de%20Tela%202024-04-15%20%C3%A0s%2008.59.52.png)
+
 ## WELCOME!
 > Hi, Hope you are doing great!
 This is my first graphic project in the 42's common core!
