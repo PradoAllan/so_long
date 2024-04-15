@@ -43,6 +43,7 @@ The checkerd flag is the exit (but you can only finish the map when you collect 
 
 <h2 align="center">Creating a new map</h2>
 
+## MAPS:
 The maps are locaated at "maps" file.<br />
 To create a new map, first of all, you need to understand how the map works:<br />
 	1 = wall;<br />
@@ -51,14 +52,7 @@ To create a new map, first of all, you need to understand how the map works:<br 
 	C = collectables;<br />
 	P = player.
 
-For example:
-	111111<br />
-	1000E1<br />
-	1C0011<br />
-	1000P1<br />
-	111111
-
-When you create your map, you have to be aware that there are some rules to run the map.
+When you create your map, you have to be aware that there are some rules to run the map.<br />
 	The map can only have this 5 characters;<br />
 	The map must be rectangle. width != height;<br />
 	The map must be winnable. All the collectables and the exit should be able for the player to get/go.<br />
