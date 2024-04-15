@@ -11,8 +11,18 @@ So. To create this little game, witch by the way, was my dream when I was a kid,
 and some functions that is avaliable in the MinilibX library.
 
 ## IMPORTANT!!!
-The game only work in UNIX systems.<ber />
+The game only work in UNIX systems.<br />
 So, you can play in Linux and in MacOS.
+In MacOS:<br />
+	W = UP<br />
+ 	S = DOWN<br />
+  	A = LEFT<br />
+   	D = RIGHT<br />
+In Linux:<br />
+	UP_ARROW = UP<br />
+ 	DOWN_ARROW = DOWN<br />
+  	LEFT_ARROW = LEFT<br />
+   	RIGHT_ARROW = RIGHT<br />
 
 ## Usage:
 First you need to clone this rep.<br />
