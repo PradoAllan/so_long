@@ -8,6 +8,10 @@ The main proposal of this project is to create a 2D game using the MinilibX, wit
 So. To create this little game, witch by the way, was my dream when I was a kid, I have to study and understand how to deal with C structs
 and some functions that is avaliable in the MinilibX library.
 
+## IMPORTANT!!!
+The game only work in UNIX systems.<ber />
+So, you can play in Linux and in MacOS.
+
 ## Usage:
 First you need to clone this rep.<br />
 Paste the command bellow in your terminal:
