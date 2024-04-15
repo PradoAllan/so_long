@@ -57,15 +57,15 @@ SOURCES = libftsrc/ft_atoi.c \
 		libftsrc/get_next_line.c \
 		libftsrc/get_next_line_utils.c
 
-SO_LONG_SOURCES = so_long.c \
-			validations_func.c \
-			validations_func2.c \
-			utils.c \
-			utils2.c \
-			display_func.c \
-			player_moves.c \
-			new_assets.c \
-			helper.c
+SO_LONG_SOURCES = src/so_long.c \
+			src/validations_func.c \
+			src/validations_func2.c \
+			src/utils.c \
+			src/utils2.c \
+			src/display_func.c \
+			src/player_moves.c \
+			src/new_assets.c \
+			src/helper.c
 
 VAL_FLAGS = --leak-check=full --show-leak-kinds=all --track-origins=yes
 

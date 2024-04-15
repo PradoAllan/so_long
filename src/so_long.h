@@ -6,24 +6,24 @@
 /*   By: aprado <aprado@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/14 15:06:22 by aprado            #+#    #+#             */
-/*   Updated: 2024/04/08 19:08:11 by aprado           ###   ########.fr       */
+/*   Updated: 2024/04/15 09:50:32 by aprado           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_H
 # define SO_LONG_H
 
-# include "./libftsrc/libft.h"
+# include "../libftsrc/libft.h"
 
 # ifdef __linux__
-# include "./minilibx-linux/mlx.h"
+# include "../minilibx-linux/mlx.h"
 # define UP_ARROW 65362
 # define RIGHT_ARROW 65363
 # define LEFT_ARROW 65361
 # define DOWN_ARROW 65364
 # define ESC 65307
 # else
-#  include "./minilibx-mac/mlx.h"
+#  include "../minilibx-mac/mlx.h"
 #  define UP_ARROW        13 //W
 #  define DOWN_ARROW        1 //S
 #  define LEFT_ARROW        0 //A
